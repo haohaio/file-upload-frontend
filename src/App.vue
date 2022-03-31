@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <Upload />
+    <router-view />
   </div>
 </template>
 
 <script>
-import Upload from './components/Upload.vue'
-
 export default {
-  name: 'App',
-  components: {
-    Upload
-  }
+  name: 'App'
 }
 </script>
 
@@ -22,6 +17,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
